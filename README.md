@@ -14,7 +14,7 @@ AI-powered screen time management app using computer vision to verify task compl
 **Tech:** React 19 • Firebase • Gemini Vision API • Vite  
 **Impact:** Won 1st place in Humanities Track
 
-### [ParTee](https://github.com/AmanWak/ParTee) - Golf Reservation System
+### [ParTee](https://github.com/AnoushkaChakravarty/CS180GroupProject) - Golf Reservation System
 Multi-threaded client-server system with thread-safe database and concurrent request handling.
 
 **Tech:** Java • TCP Sockets • JUnit • Maven  
