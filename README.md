@@ -8,7 +8,7 @@
 
 ## 🚀 Featured Projects
 
-### [SnipSnap](https://github.com/AmanWak/SnipSnap) - AI Accountability Partner
+### [SnipSnap](https://github.com/TrackerJo/SnipSnap) - AI Accountability Partner
 AI-powered screen time management app using computer vision to verify task completion. Built in 3 hours during hackathon.
 
 **Tech:** React 19 • Firebase • Gemini Vision API • Vite  
