@@ -10,14 +10,14 @@
 
 ### [SnipSnap](https://github.com/TrackerJo/SnipSnap) - AI Accountability Partner
 
-**Problem:** People struggle with screen time accountability—they say "I'll check my phone after finishing this task" but check it before completing it.
+**Problem:** Digital task managers lack the satisfaction of completion—checking a box doesn't feel rewarding. People are returning to paper lists because digital tools feel hollow and unsatisfying.
 
-**Solution:** AI-powered app using Gemini Vision API to verify task completion before allowing distractions. Built in 3 hours during Purdue's Anthropic Build-a-Thon.
+**Solution:** Gamified task completion app that requires photo proof of finished work, verified by AI. Rewards users with satisfying animations, tracks streaks, and turns productivity into an engaging challenge rather than a chore.
 
 **My contributions (2-person team):** AI integration (Gemini Vision API), state management with custom React hooks, Firebase architecture and authentication
 
 **Tech:** React 19 • Firebase • Gemini Vision API • Vite  
-**Impact:** 🏆 1st place in Humanities Track
+**Impact:** 🏆 1st place in Humanities Track at Anthropic Build-a-Thon
 
 *Note: Built via pair programming—commits appear under teammate's account*
 
@@ -25,14 +25,18 @@
 
 ### [ParTee](https://github.com/AnoushkaChakravarty/CS180GroupProject) - Golf Reservation System
 
-**Problem:** Managing concurrent client requests in multi-threaded systems is error-prone without proper synchronization and can lead to data corruption.
+**Problem:** Traditional golf course reservation systems can't safely handle multiple concurrent bookings, leading to double-bookings and data conflicts during peak hours.
 
-**Solution:** Thread-safe client-server reservation system using read/write locking and persistent file storage to handle 100+ concurrent clients with zero data corruption.
+**Solution:** Thread-safe client-server reservation platform using read/write locking and persistent storage. Handles 100+ simultaneous clients while maintaining data integrity—built as CS180 final project.
 
-**My contributions (5-person team):** Database architecture (Singleton pattern with read/write locks), 50+ unit tests for concurrency and persistence, performance optimization
+**My contributions (5-person team):** 
+- **Product:** Conceptualized key features and user flows for reservation management
+- **Architecture:** Designed and implemented thread-safe database with Singleton pattern and read/write locks
+- **Development:** Worked on database layer, CRUD operations, and client-server communication logic
+- **Testing:** Wrote unit tests for concurrency, persistence, and edge cases
 
 **Tech:** Java • TCP Sockets • JUnit • Maven  
-**Scale:** 150+ unit tests, <50ms avg response time under load
+**Scale:** 150+ unit tests, <50ms avg response time, zero deadlocks across 1000+ test scenarios
 
 ---
 
