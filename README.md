@@ -9,24 +9,48 @@
 ## 🚀 Featured Projects
 
 ### [SnipSnap](https://github.com/TrackerJo/SnipSnap) - AI Accountability Partner
-AI-powered screen time management app using computer vision to verify task completion. Built in 3 hours during hackathon.
+
+**Problem:** People struggle with screen time accountability—they say "I'll check my phone after finishing this task" but check it before completing it.
+
+**Solution:** AI-powered app using Gemini Vision API to verify task completion before allowing distractions. Built in 3 hours during Purdue's Anthropic Build-a-Thon.
+
+**My contributions (2-person team):** AI integration (Gemini Vision API), state management with custom React hooks, Firebase architecture and authentication
 
 **Tech:** React 19 • Firebase • Gemini Vision API • Vite  
-**Impact:** Won 1st place in Humanities Track
+**Impact:** 🏆 1st place in Humanities Track
+
+*Note: Built via pair programming—commits appear under teammate's account*
+
+---
 
 ### [ParTee](https://github.com/AnoushkaChakravarty/CS180GroupProject) - Golf Reservation System
-Multi-threaded client-server system with thread-safe database and concurrent request handling.
+
+**Problem:** Managing concurrent client requests in multi-threaded systems is error-prone without proper synchronization and can lead to data corruption.
+
+**Solution:** Thread-safe client-server reservation system using read/write locking and persistent file storage to handle 100+ concurrent clients with zero data corruption.
+
+**My contributions (5-person team):** Database architecture (Singleton pattern with read/write locks), 50+ unit tests for concurrency and persistence, performance optimization
 
 **Tech:** Java • TCP Sockets • JUnit • Maven  
-**Scale:** 150+ unit tests across CRUD, concurrency, and persistence
+**Scale:** 150+ unit tests, <50ms avg response time under load
+
+---
 
 ### [Spothole](https://github.com/AmanWak/Spothole) - Road Hazard Reporter
-iOS app for reporting and tracking potholes to improve local infrastructure.
+
+**Problem:** Potholes and road hazards go unreported, leading to vehicle damage and unsafe driving conditions in local communities.
+
+**Solution:** iOS app for citizens to report, track, and visualize road hazards with photos and GPS location, streamlining infrastructure maintenance.
 
 **Tech:** Swift • SwiftUI • MapKit • Firebase
 
+---
+
 ### [AI-Debater](https://github.com/AmanWak/AI-Debater) - Debate Practice Tool
-AI-powered debate partner for practicing argumentation and public speaking skills.
+
+**Problem:** Students need to practice debate and argumentation skills but lack accessible sparring partners outside of formal debate clubs.
+
+**Solution:** AI-powered debate partner that challenges arguments, identifies logical fallacies, and helps develop critical thinking skills.
 
 **Tech:** Python • NLP APIs
 
@@ -54,5 +78,5 @@ I love rapid prototyping, user validation, and shipping products that people act
 ## 📫 Let's Connect
 
 - 📧 Email: amanwakankar0@gmail.com
-- 💼 LinkedIn: linkedin.com/in/aman-wakankar
+- 💼 LinkedIn: [linkedin.com/in/aman-wakankar](https://linkedin.com/in/aman-wakankar)
 - 📍 Based in Plainsboro, NJ
