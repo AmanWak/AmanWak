@@ -24,11 +24,12 @@ CS student at Purdue · Looking for SWE and PM internships, Summer 2027
 
 ## Projects
 
-### Kinematech
+### [Kinematech](https://github.com/AmanWak/LiftLogic)
 **Won at StarkHacks, the World's Largest Hardware Hackathon**
 
-- Wearable form coach using 5 IMU sensors
-- I built all the software (website, anomaly tracking, fall detection); teammates built the hardware
+- Wearable form coach using 5 IMU sensors, with rep-by-rep AI coaching from Gemini
+- I built all the software (web app, anomaly tracking, fall detection); teammates built the hardware
+- `Next.js` `TypeScript` `Gemini` `WebSockets`
 
 ### [SnipSnap](https://github.com/TrackerJo/SnipSnap)
 **1st Place, Anthropic-backed Purdue Build-a-Thon**
