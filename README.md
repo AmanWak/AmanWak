@@ -1,12 +1,38 @@
 # Hey, I'm Aman
 
-**CS @ Purdue University** | Building AI-powered products | **Seeking PM/SWE internships Summer 2026**
+**CS @ Purdue University** | Building AI-powered products | **Seeking PM/SWE internships Summer 2027**
 
-🏆 **Recent Win:** 1st Place at Purdue's Anthropic Build-a-Thon (Humanities Track) for SnipSnap
+🏆 **Recent Wins:**
+- **Kinematech**: [TODO: prize] at StarkHacks, the World's Largest Hardware Hackathon
+- **SnipSnap**: 1st Place, Anthropic-backed Purdue Build-a-Thon
+
+---
+
+## 💼 Experience
+
+**Software Engineering Intern, LightBeam.ai** (data privacy B2B SaaS) · Jun–Aug 2026
+Backend and infrastructure work: FastAPI services, Kafka pipelines, RBAC/OAuth2, Kubernetes on Azure and GCP.
+*Code lives on a company GitHub account.*
+
+**Head Coach, Code Wiz** · Sep 2024–Aug 2026
+Coached students aged 7–17 and explained their work to parents in plain terms, driving a 90%+ free-trial-to-paid conversion rate.
 
 ---
 
 ## 🚀 Featured Projects
+
+### [Kinematech](TODO: repo link) - Wearable Form Coach
+
+**Problem:** [TODO: one line on the problem]
+
+**Solution:** Wearable form coach that uses 5 body-worn IMU sensors to track movement and flag bad form.
+
+**My contributions (TODO-person team):** Built all of the software solo while teammates built the hardware: the website and the anomaly-tracking code, including a 3-condition state machine for fall detection. [TODO: one line on the UX focus]
+
+**Tech:** [TODO]
+**Impact:** 🏆 [TODO: prize] at StarkHacks, the World's Largest Hardware Hackathon
+
+---
 
 ### [SnipSnap](https://github.com/TrackerJo/SnipSnap) - AI Accountability Partner
 
@@ -16,10 +42,30 @@
 
 **My contributions (2-person team):** AI integration (Gemini Vision API), state management with custom React hooks, Firebase architecture and authentication
 
-**Tech:** React 19 • Firebase • Gemini Vision API • Vite  
-**Impact:** 🏆 1st place in Humanities Track at Anthropic Build-a-Thon
+**Tech:** React 19 • Firebase • Gemini Vision API • Vite
+**Impact:** 🏆 1st Place, Anthropic-backed Purdue Build-a-Thon
 
 *Note: Built via pair programming—commits appear under teammate's account*
+
+---
+
+### [Glimpse](https://github.com/AmanWak/Glimpse) - Eye Breaks for macOS
+
+**Problem:** The 20-20-20 rule (every 20 minutes, look 20 feet away for 20 seconds) helps with eye strain, but timers that interrupt you mid-sentence get turned off.
+
+**Solution:** Free, native macOS menu bar app that lives in the notch and waits until you stop typing before prompting a break.
+
+**Tech:** Swift • macOS
+
+---
+
+### [wispr-free](https://github.com/AmanWak/wispr-free) - Local Dictation for macOS
+
+**Problem:** Good speech-to-text tools for Mac are paid subscriptions or send your audio to the cloud.
+
+**Solution:** Free, hold-to-dictate speech-to-text that runs entirely on your machine, powered by OpenAI Whisper.
+
+**Tech:** Python • OpenAI Whisper
 
 ---
 
@@ -29,51 +75,37 @@
 
 **Solution:** Thread-safe client-server reservation platform using read/write locking and persistent storage. Handles 100+ simultaneous clients while maintaining data integrity—built as CS180 final project.
 
-**My contributions (5-person team):** 
+**My contributions (5-person team):**
 - **Product:** Conceptualized key features and user flows for reservation management
 - **Architecture:** Designed and implemented thread-safe database with Singleton pattern and read/write locks
 - **Development:** Worked on database layer, CRUD operations, and client-server communication logic
 - **Testing:** Wrote unit tests for concurrency, persistence, and edge cases
 
-**Tech:** Java • TCP Sockets • JUnit • Maven  
-**Scale:** 150+ unit tests, <50ms avg response time, zero deadlocks across 1000+ test scenarios
+**Tech:** Java • TCP Sockets • JUnit • Maven
+**Scale:** [TODO: keep "150+ unit tests, <50ms avg response time, zero deadlocks across 1000+ test scenarios" only if verifiable]
 
 ---
 
-### [Spothole](https://github.com/AmanWak/Spothole) - Road Hazard Reporter
-
-**Problem:** Potholes and road hazards go unreported, leading to vehicle damage and unsafe driving conditions in local communities.
-
-**Solution:** iOS app for citizens to report, track, and visualize road hazards with photos and GPS location, streamlining infrastructure maintenance.
-
-**Tech:** Swift • SwiftUI • MapKit • Firebase
-
----
-
-### [AI-Debater](https://github.com/AmanWak/AI-Debater) - Debate Practice Tool
-
-**Problem:** Students need to practice debate and argumentation skills but lack accessible sparring partners outside of formal debate clubs.
-
-**Solution:** AI-powered debate partner that challenges arguments, identifies logical fallacies, and helps develop critical thinking skills.
-
-**Tech:** Python • NLP APIs
+### More projects
+- [Spothole](https://github.com/AmanWak/Spothole): iOS app for reporting and mapping road hazards (Swift, SwiftUI, MapKit, Firebase)
+- [AI-Debater](https://github.com/AmanWak/AI-Debater): AI debate partner for practicing arguments (Python)
 
 ---
 
 ## 💻 Tech Stack
 
-**Languages:** Python • Java • Swift • R  
-**Frameworks:** React • Angular • SwiftUI • Firebase  
-**Tools:** Git • JUnit • Vite • MapKit
+**Languages:** Python • Java • C • C++ • Swift • R
+**Frameworks:** FastAPI • React • SwiftUI • Firebase
+**Infrastructure & Tools:** Kubernetes • Kafka • Git • JUnit • Vite • MapKit
 
 ---
 
 ## 📊 What I'm About
 
 I'm passionate about building products that solve real problems. My background combines:
-- **Technical skills** from CS coursework and personal projects
-- **Product thinking** from teaching 500+ students and leading nonprofit growth
-- **User empathy** from maintaining 90%+ conversion rates as a Tech Instructor
+- **Technical skills** from a backend SWE internship, CS coursework, and personal projects
+- **Product thinking** from co-founding The Speaking Solution, a nonprofit I helped scale to 12 locations and 500+ students
+- **User empathy** from a 90%+ free-trial-to-paid conversion rate as Head Coach at Code Wiz
 
 I love rapid prototyping, user validation, and shipping products that people actually use.
 
@@ -83,4 +115,4 @@ I love rapid prototyping, user validation, and shipping products that people act
 
 - 📧 Email: amanwakankar0@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/aman-wakankar](https://linkedin.com/in/aman-wakankar)
-- 📍 Based in Plainsboro, NJ
+- 📍 Based in West Lafayette, IN
